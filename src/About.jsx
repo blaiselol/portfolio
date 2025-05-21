@@ -136,9 +136,8 @@ export default function About() {
               Mail
             </a>
             <a 
-              href="/Resume.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="/Blaise_Carrillo.pdf" 
+              download="Blaise_Carrillo_Resume.pdf"
               style={{
                 padding: '0.2rem 1rem',
                 backgroundColor: '#333',
