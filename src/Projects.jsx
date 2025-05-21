@@ -100,7 +100,7 @@ export default function Projects() {
                     </div>
                     <p style={{ color: '#b0b3c6', fontSize: isFirst ? '0.92rem' : '1.15rem', margin: isFirst ? '0 0 0 0' : '0 0 1rem 0', lineHeight: 1.5 }}>{project.description}</p>
                     <a href={project.link} style={{ color: '#90EE90', fontWeight: 600, textDecoration: 'none', fontSize: isFirst ? '0.95rem' : '1.15rem', display: 'inline-block', marginTop: isFirst ? '1.2rem' : 0 }}
-                      {...(isFirst ? { href: '/projects/hypedocs' } : idx === 1 ? { href: '/projects/rebelremind' } : {})}
+                      {...(isFirst ? { href: '/projects/SiEGA' } : idx === 1 ? { href: '/projects/rebelremind' } : {})}
                     >
                       {project.linkText} <span style={{ fontSize: '1.2em' }}>&#8594;</span>
                     </a>
